@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Diário de Turma
 
 Projeto simples em HTML e CSS (sem JavaScript) para praticar e subir no GitHub.
@@ -12,3 +13,7 @@ Projeto simples em HTML e CSS (sem JavaScript) para praticar e subir no GitHub.
 - Criar uma página `sobre.html` e linkar no menu
 - Mudar a paleta de cores
 - Publicar no GitHub Pages
+=======
+# projeto-alunos
+Teste para por na web, pode excluir depois.
+>>>>>>> dc0826f4f01021ac397d2ac14a235ee0124bdfc6
