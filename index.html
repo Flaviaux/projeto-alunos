@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Diário de Turma</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <aside class="menu">
+    <h1 class="logo">Diário<br>de Turma</h1>
+    <nav>
+      <a href="#resumo" class="ativo">Resumo</a>
+      <a href="#alunos">Alunos</a>
+      <a href="#tarefas">Tarefas</a>
+      <a href="#cadastro">Cadastrar</a>
+    </nav>
+    <p class="rodape-menu">Feito por: <strong>seu nome aqui</strong></p>
+  </aside>
+
+  <main>
+    <header id="resumo">
+      <h2>Olá, turma! 👋</h2>
+      <p>Acompanhe alunos e tarefas em um só lugar.</p>
+    </header>
+
+    <section class="numeros">
+      <div class="numero"><strong>24</strong><span>alunos</span></div>
+      <div class="numero"><strong>5</strong><span>tarefas abertas</span></div>
+      <div class="numero destaque"><strong>92%</strong><span>presença no mês</span></div>
+    </section>
+
+    <section id="alunos" class="painel">
+      <h3>Alunos</h3>
+      <div class="rolagem">
+        <table>
+          <thead>
+            <tr><th>Nome</th><th>Projeto</th><th>Nota</th><th>Situação</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Ana Souza</td><td>Landing page</td><td>9,5</td><td><span class="tag verde">Entregue</span></td></tr>
+            <tr><td>Bruno Lima</td><td>Portfólio</td><td>7,0</td><td><span class="tag amarela">Em andamento</span></td></tr>
+            <tr><td>Carla Dias</td><td>Loja virtual</td><td>–</td><td><span class="tag vermelha">Atrasado</span></td></tr>
+            <tr><td>Diego Reis</td><td>Blog</td><td>8,5</td><td><span class="tag verde">Entregue</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="tarefas" class="painel">
+      <h3>Tarefas da semana</h3>
+      <ul class="tarefas">
+        <li><label><input type="checkbox" checked> Criar repositório no GitHub</label></li>
+        <li><label><input type="checkbox"> Fazer o primeiro commit</label></li>
+        <li><label><input type="checkbox"> Publicar no GitHub Pages</label></li>
+        <li><label><input type="checkbox"> Enviar o link para o professor</label></li>
+      </ul>
+    </section>
+
+    <section id="cadastro" class="painel">
+      <h3>Cadastrar aluno</h3>
+      <form>
+        <label>Nome
+          <input type="text" placeholder="Ex.: Maria Silva">
+        </label>
+        <label>Projeto
+          <input type="text" placeholder="Ex.: Meu portfólio">
+        </label>
+        <label>Situação
+          <select>
+            <option>Em andamento</option>
+            <option>Entregue</option>
+            <option>Atrasado</option>
+          </select>
+        </label>
+        <button type="button">Salvar aluno</button>
+      </form>
+    </section>
+  </main>
+
+</body>
+</html>
